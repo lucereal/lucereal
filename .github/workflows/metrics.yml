@@ -19,7 +19,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    permissions: 
+      contents: write
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Metrics Embed
@@ -29,12 +30,12 @@ jobs:
             template: classic
             base: header, repositories, activity, community, metadata
             base_indepth: yes
-            plugin_lines: yes
-            plugin_languages: yes
-            plugin_languages_indepth: yes
-            plugin_habits: yes
-            plugin_isocalendar: yes
-            plugin_introduction: yes
+            # plugin_lines: yes
+            # plugin_languages: yes
+            # plugin_languages_indepth: yes
+            # plugin_habits: yes
+            # plugin_isocalendar: yes
+            # plugin_introduction: yes
             # plugin_achievements: yes
 
 
