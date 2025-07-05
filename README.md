@@ -1,4 +1,5 @@
 ## Hi there 👋
+![Merics](github-metrics.svg)
 
 <!--
 **lucereal/lucereal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
